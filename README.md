@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+## How I built this
+
+### Step 1
+Start a new project
+```
+npx create-react-app react-bootstrap-demo
+```
+
+### Step 2
+Install bootstrap
+```
+npm install react-bootstrap bootstrap
+```
+
+### Step 3
+Add the react bootstrap css styles to your project. The following can be added to `src/index.js` or `App.js` file
+
+![](screenshots\css_import.JPG)
+
+### Step 4
+Look up a componet you want to use in the documentation and create a component of your own with it. I decided to use the [Card](https://react-bootstrap.github.io/components/cards/) component.
+
+![](screenshots\card.JPG)
+
+### Step 5
+Add your component to `app.js`
+
+![](screenshots\app.JPG)
